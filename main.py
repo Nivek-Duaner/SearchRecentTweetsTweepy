@@ -1,6 +1,7 @@
 import tweepy
 
 bearer_token = input("Insert Bearer Token here : ")
+# You have to register at : https://developer.twitter.com/en
 
 request = tweepy.Client(bearer_token)
 
